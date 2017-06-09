@@ -27,5 +27,5 @@ Efficient quantum algorithm
   
 Quantum Complexity
 ------
-  传统意义上的比特可以用0和1表示；而量子信息要用qubit表示。qubit可视为一个复空间的二维矢量。
-  $|\psi\rangle = a|0\rangle + b|1\rangle, |a|^{2}+|b|^{2}=1$
+  传统意义上的比特可以用0和1表示；而量子信息要用qubit表示。qubit可视为一个复空间的二维矢量。<br>
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
