@@ -28,6 +28,11 @@ Efficient quantum algorithm
 Quantum Complexity
 ------
   传统意义上的比特可以用0和1表示；而量子信息要用qubit表示。qubit可视为一个复空间的二维矢量。<br>
+  <br>
+  N个粒子的系统需要用2的N次方维度的矢量表示。仅仅30个粒子就需要10的30次方维度！这也是传统计算机不能代替量子计算机的原因之一。<br> 
+  <br>
+  另一个原因是局部的模拟是不可行的。这是从贝尔的定理中直接得来的结论。简单的说，由于量子纠缠的非局域性，仅仅测量局部的信息对整体状态的推测几乎毫无帮助。<br>
   
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+Quantum parallelism
+-------
+  David Deutsch的发现：传统计算机要比较不同输入下输出的结果，需要计算两次；而量子计算可以同时进行。这就是量子计算的天然并行性。
